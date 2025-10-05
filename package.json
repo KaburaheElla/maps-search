@@ -1,0 +1,19 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test" :"cucumber-js --require-module ts-node/register --require test/steps --require hooks",
+    "test:searchWithOneCharacter": "cucumber-js --require-module ts-node/register --require test/steps --require hooks --tags @searchWithOneCharacter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.0",
+    "ts-node": "^10.9.2"
+  }
+}
