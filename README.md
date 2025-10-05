@@ -61,7 +61,7 @@ project/
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/KaburaheElla/maps-search
 cd <repository-folder>
 ```
 
@@ -78,13 +78,12 @@ npm install
 ### Run all tests
 
 ```bash
-npm test
+npm run test
 ```
 
 ### Run tests by tag
 
 ```bash
-npm test -- --tags @invalidSearch
 npm run test:invalidSearch
 ```
 
